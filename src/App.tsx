@@ -48,7 +48,7 @@ function App() {
   const [submitting, setSubmitting] = useState(false);
 
   const GOOGLE_APPS_SCRIPT_URL = 'https://script.google.com/macros/s/AKfycbwe1sABQ8QAjxiPFH9ydaVVLg3ztMTQU7nGUA01qmEcb5uQ8fn4JXH9POgfkBqkX9cL/exec';
-  const N8N_WEBHOOK_URL = 'https://n8n.jadallah.work/webhook/get-submit-form-02';
+  const N8N_WEBHOOK_URL = 'https://n8n.jadallah.work/webhook-test/get-submit-form-02';
 
   useEffect(() => {
     fetchDropdownData();
